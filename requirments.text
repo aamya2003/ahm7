@@ -1,1 +1,9 @@
 pyTelegramBotAPI==4.11.0
+.git
+.idea
+projectapp
+projectname
+rango
+db.sqlite3
+main.py
+requirements.txt
