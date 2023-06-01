@@ -1,0 +1,12 @@
+import os
+
+folder_path = None
+extensions = ["dat", "dir", "bak", "jpg", "tgs", "webm", "webp", "db", "db-jourmal"]
+
+
+for filename in os.listdir(folder_path):
+    print(filename)
+    if filename.split(".")[-1] in (extensions):
+        print(filename)
+        file_path = os.path.join("", filename)
+        os.remove(file_path)
