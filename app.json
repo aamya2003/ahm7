@@ -1,7 +1,7 @@
 {
   "name": "your-app-name",
   "description": "Your app description",
-  "repository": "https://github.com/aamya2003/ahm7.git",
+  "repository": "https://github.com/aamya2003/ahm7",
   "buildpacks": [
     {
       "url": "heroku/python"
